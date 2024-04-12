@@ -1,27 +1,6 @@
 # Linaje
 
-```mermaid
-graph TD;
-
-CHIBANA["CHIBANA, Chōshin"];
-MIYAHIRA["MIYAHIRA, Katsuya"];
-SHINZATO["SHINZATO, Yoshihide"];
-SHINZATO2["SHINZATO, Masahiro"];
-GONZALEZCEBALLOS["GONZALEZ CEBALLOS, Héctor"];
-MIYAZATO["MIYAZATO, Shoei"];
-MIYAZATO2["MIYAZATO, Masatoshi"]
-CORAGLIO["CORAGLIO, Miguel Ángel"]
-IHA["IHA, Kotaro"]
-
-CHIBANA --> MIYAHIRA;
-CHIBANA --> IHA;
-MIYAHIRA --> SHINZATO;
-SHINZATO --> GONZALEZCEBALLOS;
-SHINZATO --> SHINZATO2;
-MIYAHIRA --> MIYAZATO;
-MIYAZATO --> CORAGLIO
-MIYAZATO --> MIYAZATO2
-```
+![diagrama de linaje](linaje-diagrama.png)
 
 * CHIBANA, Chōshin (知花 朝信) [1885–1969]: Shōrin-ryū.
     + https://en.wikipedia.org/wiki/Chōshin_Chibana
