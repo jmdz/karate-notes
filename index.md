@@ -1,3 +1,3 @@
 # Mis Notas de Karate
 
-* [Linaje](docs/linaje.md)
+* [Linaje](linaje.md)
