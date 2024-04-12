@@ -49,4 +49,4 @@
 
 * MIYAZATO, Masatoshi [1954–]
 
-* CORAGLIO, Miguel Ángel [–2013]
+* CORAGLIO, Miguel Ángel [¿1951?–2013]
