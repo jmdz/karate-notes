@@ -1,0 +1,432 @@
+<svg aria-roledescription="flowchart-v2" role="graphics-document document"
+    viewBox="-8 -8 958.0999755859375 1044.5833740234375" style="max-width: 958.0999755859375px;"
+    xmlns="http://www.w3.org/2000/svg" width="100%" id="mermaid">
+    <style>
+        #mermaid {
+            font-family: "trebuchet ms", verdana, arial, sans-serif;
+            font-size: 16px;
+            fill: #ccc;
+        }
+
+        #mermaid .error-icon {
+            fill: #a44141;
+        }
+
+        #mermaid .error-text {
+            fill: #ddd;
+            stroke: #ddd;
+        }
+
+        #mermaid .edge-thickness-normal {
+            stroke-width: 2px;
+        }
+
+        #mermaid .edge-thickness-thick {
+            stroke-width: 3.5px;
+        }
+
+        #mermaid .edge-pattern-solid {
+            stroke-dasharray: 0;
+        }
+
+        #mermaid .edge-pattern-dashed {
+            stroke-dasharray: 3;
+        }
+
+        #mermaid .edge-pattern-dotted {
+            stroke-dasharray: 2;
+        }
+
+        #mermaid .marker {
+            fill: lightgrey;
+            stroke: lightgrey;
+        }
+
+        #mermaid .marker.cross {
+            stroke: lightgrey;
+        }
+
+        #mermaid svg {
+            font-family: "trebuchet ms", verdana, arial, sans-serif;
+            font-size: 16px;
+        }
+
+        #mermaid .label {
+            font-family: "trebuchet ms", verdana, arial, sans-serif;
+            color: #ccc;
+        }
+
+        #mermaid .cluster-label text {
+            fill: #F9FFFE;
+        }
+
+        #mermaid .cluster-label span,
+        #mermaid p {
+            color: #F9FFFE;
+        }
+
+        #mermaid .label text,
+        #mermaid span,
+        #mermaid p {
+            fill: #ccc;
+            color: #ccc;
+        }
+
+        #mermaid .node rect,
+        #mermaid .node circle,
+        #mermaid .node ellipse,
+        #mermaid .node polygon,
+        #mermaid .node path {
+            fill: #1f2020;
+            stroke: #81B1DB;
+            stroke-width: 1px;
+        }
+
+        #mermaid .flowchart-label text {
+            text-anchor: middle;
+        }
+
+        #mermaid .node .label {
+            text-align: center;
+        }
+
+        #mermaid .node.clickable {
+            cursor: pointer;
+        }
+
+        #mermaid .arrowheadPath {
+            fill: lightgrey;
+        }
+
+        #mermaid .edgePath .path {
+            stroke: lightgrey;
+            stroke-width: 2.0px;
+        }
+
+        #mermaid .flowchart-link {
+            stroke: lightgrey;
+            fill: none;
+        }
+
+        #mermaid .edgeLabel {
+            background-color: hsl(0, 0%, 34.4117647059%);
+            text-align: center;
+        }
+
+        #mermaid .edgeLabel rect {
+            opacity: 0.5;
+            background-color: hsl(0, 0%, 34.4117647059%);
+            fill: hsl(0, 0%, 34.4117647059%);
+        }
+
+        #mermaid .labelBkg {
+            background-color: rgba(87.75, 87.75, 87.75, 0.5);
+        }
+
+        #mermaid .cluster rect {
+            fill: hsl(180, 1.5873015873%, 28.3529411765%);
+            stroke: rgba(255, 255, 255, 0.25);
+            stroke-width: 1px;
+        }
+
+        #mermaid .cluster text {
+            fill: #F9FFFE;
+        }
+
+        #mermaid .cluster span,
+        #mermaid p {
+            color: #F9FFFE;
+        }
+
+        #mermaid div.mermaidTooltip {
+            position: absolute;
+            text-align: center;
+            max-width: 200px;
+            padding: 2px;
+            font-family: "trebuchet ms", verdana, arial, sans-serif;
+            font-size: 12px;
+            background: hsl(20, 1.5873015873%, 12.3529411765%);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 2px;
+            pointer-events: none;
+            z-index: 100;
+        }
+
+        #mermaid .flowchartTitleText {
+            text-anchor: middle;
+            font-size: 18px;
+            fill: #ccc;
+        }
+
+        #mermaid :root {
+            --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+        }
+    </style>
+    <g>
+        <marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="6"
+            viewBox="0 0 10 10" class="marker flowchart" id="mermaid_flowchart-pointEnd">
+            <path style="stroke-width: 1px; stroke-dasharray: 1px, 0px;" class="arrowMarkerPath"
+                d="M 0 0 L 10 5 L 0 10 z"></path>
+        </marker>
+        <marker orient="auto" markerHeight="12" markerWidth="12" markerUnits="userSpaceOnUse" refY="5" refX="4.5"
+            viewBox="0 0 10 10" class="marker flowchart" id="mermaid_flowchart-pointStart">
+            <path style="stroke-width: 1px; stroke-dasharray: 1px, 0px;" class="arrowMarkerPath"
+                d="M 0 5 L 10 10 L 10 0 z"></path>
+        </marker>
+        <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="11"
+            viewBox="0 0 10 10" class="marker flowchart" id="mermaid_flowchart-circleEnd">
+            <circle style="stroke-width: 1px; stroke-dasharray: 1px, 0px;" class="arrowMarkerPath" r="5" cy="5" cx="5">
+            </circle>
+        </marker>
+        <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5" refX="-1"
+            viewBox="0 0 10 10" class="marker flowchart" id="mermaid_flowchart-circleStart">
+            <circle style="stroke-width: 1px; stroke-dasharray: 1px, 0px;" class="arrowMarkerPath" r="5" cy="5" cx="5">
+            </circle>
+        </marker>
+        <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="12"
+            viewBox="0 0 11 11" class="marker cross flowchart" id="mermaid_flowchart-crossEnd">
+            <path style="stroke-width: 2px; stroke-dasharray: 1px, 0px;" class="arrowMarkerPath"
+                d="M 1,1 l 9,9 M 10,1 l -9,9"></path>
+        </marker>
+        <marker orient="auto" markerHeight="11" markerWidth="11" markerUnits="userSpaceOnUse" refY="5.2" refX="-1"
+            viewBox="0 0 11 11" class="marker cross flowchart" id="mermaid_flowchart-crossStart">
+            <path style="stroke-width: 2px; stroke-dasharray: 1px, 0px;" class="arrowMarkerPath"
+                d="M 1,1 l 9,9 M 10,1 l -9,9"></path>
+        </marker>
+        <g class="root">
+            <g class="clusters"></g>
+            <g class="edgePaths">
+                <path marker-end="url(#mermaid_flowchart-pointEnd)" style="fill:none;"
+                    class="edge-thickness-normal edge-pattern-solid flowchart-link LS-CHIBANA LE-MIYAHIRA"
+                    id="L-CHIBANA-MIYAHIRA-0"
+                    d="M488.6041717529297,218.26666259765625L488.6041717529297,222.4333292643229C488.6041717529297,226.5999959309896,488.6041717529297,234.9333292643229,488.6041717529297,242.38332926432292C488.6041717529297,249.83332926432294,488.6041717529297,256.3999959309896,488.6041717529297,259.68332926432294L488.6041717529297,262.96666259765624">
+                </path>
+                <path marker-end="url(#mermaid_flowchart-pointEnd)" style="fill:none;"
+                    class="edge-thickness-normal edge-pattern-solid flowchart-link LS-MIYAHIRA LE-SHINZATO"
+                    id="L-MIYAHIRA-SHINZATO-0"
+                    d="M409.67083740234375,423.28567443957564L383.37639300028485,438.2825057992557C357.0819485982259,453.2793371589358,304.4930597941081,483.27299987829605,278.19861539204913,501.5531645713095C251.90417098999023,519.833329264323,251.90417098999023,526.3999959309896,251.90417098999023,529.6833292643229L251.90417098999023,532.9666625976563">
+                </path>
+                <path marker-end="url(#mermaid_flowchart-pointEnd)" style="fill:none;"
+                    class="edge-thickness-normal edge-pattern-solid flowchart-link LS-SHINZATO LE-GONZALEZCEBALLOS"
+                    id="L-SHINZATO-GONZALEZCEBALLOS-0"
+                    d="M165.85416793823242,738.5137317684731L158.72569592793783,745.9864416145152C151.59722391764322,753.4591514605576,137.34027989705405,768.404571152642,130.21180788675943,779.1717252735866C123.08333587646484,789.9388793945312,123.08333587646484,796.527767944336,123.08333587646484,799.8222122192383L123.08333587646484,803.1166564941407">
+                </path>
+                <path marker-end="url(#mermaid_flowchart-pointEnd)" style="fill:none;"
+                    class="edge-thickness-normal edge-pattern-solid flowchart-link LS-SHINZATO LE-SHINZATO2"
+                    id="L-SHINZATO-SHINZATO2-0"
+                    d="M337.95417404174805,738.5137317684731L345.08264605204266,745.9864416145152C352.2111180623372,753.4591514605576,366.46806208292645,768.404571152642,373.596534093221,779.1800591155462C380.7250061035156,789.9555470784504,380.7250061035156,796.5611033121745,380.7250061035156,799.8638814290365L380.7250061035156,803.1666595458985">
+                </path>
+                <path marker-end="url(#mermaid_flowchart-pointEnd)" style="fill:none;"
+                    class="edge-thickness-normal edge-pattern-solid flowchart-link LS-MIYAHIRA LE-MIYAZATO"
+                    id="L-MIYAHIRA-MIYAZATO-0"
+                    d="M567.5375061035156,421.528047060642L595.4347286224365,436.81781631681105C623.3319511413574,452.10758557298004,679.1263961791992,482.68712408531815,707.0236186981201,502.4963373620764C734.920841217041,522.3055506388347,734.920841217041,531.344438680013,734.920841217041,535.8638827006022L734.920841217041,540.3833267211915">
+                </path>
+                <path marker-end="url(#mermaid_flowchart-pointEnd)" style="fill:none;"
+                    class="edge-thickness-normal edge-pattern-solid flowchart-link LS-MIYAZATO LE-CORAGLIO"
+                    id="L-MIYAZATO-CORAGLIO-0"
+                    d="M662.954174041748,729.8365047142132L655.0812575022379,738.7554190692987C647.2083409627279,747.6743334243844,631.4625078837076,765.5121621345555,623.5895913441976,777.7144098229743C615.7166748046875,789.9166575113932,615.7166748046875,796.4833241780599,615.7166748046875,799.7666575113932L615.7166748046875,803.0499908447266">
+                </path>
+                <path marker-end="url(#mermaid_flowchart-pointEnd)" style="fill:none;"
+                    class="edge-thickness-normal edge-pattern-solid flowchart-link LS-MIYAZATO LE-MIYAZATO2"
+                    id="L-MIYAZATO-MIYAZATO2-0"
+                    d="M806.887508392334,729.8365047142132L814.7604249318441,738.7554190692987C822.6333414713541,747.6743334243844,838.3791745503744,765.5121621345555,846.2520910898844,777.733854606503C854.1250076293945,789.9555470784504,854.1250076293945,796.5611033121745,854.1250076293945,799.8638814290365L854.1250076293945,803.1666595458985">
+                </path>
+            </g>
+            <g class="edgeLabels">
+                <g class="edgeLabel">
+                    <g transform="translate(0, 0)" class="label">
+                        <foreignObject height="0" width="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel">
+                    <g transform="translate(0, 0)" class="label">
+                        <foreignObject height="0" width="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel">
+                    <g transform="translate(0, 0)" class="label">
+                        <foreignObject height="0" width="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel">
+                    <g transform="translate(0, 0)" class="label">
+                        <foreignObject height="0" width="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel">
+                    <g transform="translate(0, 0)" class="label">
+                        <foreignObject height="0" width="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel">
+                    <g transform="translate(0, 0)" class="label">
+                        <foreignObject height="0" width="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel">
+                    <g transform="translate(0, 0)" class="label">
+                        <foreignObject height="0" width="0">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+            </g>
+            <g class="nodes">
+                <g transform="translate(488.6041717529297, 109.13333129882812)" id="flowchart-CHIBANA-0"
+                    class="node default default flowchart-label">
+                    <rect height="218.26666259765625" width="153.6999969482422" y="-109.13333129882812"
+                        x="-76.8499984741211" ry="0" rx="0" style="" class="basic label-container"></rect>
+                    <g transform="translate(-69.3499984741211, -101.63333129882812)" style="" class="label">
+                        <rect></rect>
+                        <foreignObject height="203.26666259765625" width="138.6999969482422">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">CHIBANA,
+                                    Chōshin <img
+                                        style="margin: auto; max-width: 140px; display: flex; flex-direction: column; width: 100%;"
+                                        src="https://raw.githubusercontent.com/jmdz/karate-notes/main/chibana.png"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(488.6041717529297, 378.26666259765625)" id="flowchart-MIYAHIRA-1"
+                    class="node default default flowchart-label">
+                    <rect height="220" width="157.86666870117188" y="-110" x="-78.93333435058594" ry="0" rx="0" style=""
+                        class="basic label-container"></rect>
+                    <g transform="translate(-71.43333435058594, -102.5)" style="" class="label">
+                        <rect></rect>
+                        <foreignObject height="205" width="142.86666870117188">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">MIYAHIRA,
+                                    Katsuya <img
+                                        style="margin: auto; max-width: 140px; display: flex; flex-direction: column; width: 100%;"
+                                        src="https://raw.githubusercontent.com/jmdz/karate-notes/main/miyahira.png"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(251.90417098999023, 648.3083267211914)" id="flowchart-SHINZATO-2"
+                    class="node default default flowchart-label">
+                    <rect height="220.0833282470703" width="172.10000610351562" y="-110.04166412353516"
+                        x="-86.05000305175781" ry="0" rx="0" style="" class="basic label-container"></rect>
+                    <g transform="translate(-78.55000305175781, -102.54166412353516)" style="" class="label">
+                        <rect></rect>
+                        <foreignObject height="205.0833282470703" width="157.10000610351562">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">SHINZATO,
+                                    Yoshihide <img
+                                        style="margin: auto; max-width: 140px; display: flex; flex-direction: column; width: 100%;"
+                                        src="https://raw.githubusercontent.com/jmdz/karate-notes/main/shinzato.png"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(380.7250061035156, 918.4666595458984)" id="flowchart-SHINZATO2-3"
+                    class="node default default flowchart-label">
+                    <rect height="220" width="169.11666870117188" y="-110" x="-84.55833435058594" ry="0" rx="0" style=""
+                        class="basic label-container"></rect>
+                    <g transform="translate(-77.05833435058594, -102.5)" style="" class="label">
+                        <rect></rect>
+                        <foreignObject height="205" width="154.11666870117188">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">SHINZATO,
+                                    Masahiro <img
+                                        style="margin: auto; max-width: 140px; display: flex; flex-direction: column; width: 100%;"
+                                        src="https://raw.githubusercontent.com/jmdz/karate-notes/main/shinzato2.png"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(123.08333587646484, 918.4666595458984)" id="flowchart-GONZALEZCEBALLOS-4"
+                    class="node default default flowchart-label">
+                    <rect height="220.10000610351562" width="246.1666717529297" y="-110.05000305175781"
+                        x="-123.08333587646484" ry="0" rx="0" style="" class="basic label-container"></rect>
+                    <g transform="translate(-115.58333587646484, -102.55000305175781)" style="" class="label">
+                        <rect></rect>
+                        <foreignObject height="205.10000610351562" width="231.1666717529297">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">GONZALEZ
+                                    CEBALLOS, Héctor <img
+                                        style="margin: auto; max-width: 140px; display: flex; flex-direction: column; width: 100%;"
+                                        src="https://raw.githubusercontent.com/jmdz/karate-notes/main/gonzalezceballos.png"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(734.920841217041, 648.3083267211914)" id="flowchart-MIYAZATO-5"
+                    class="node default default flowchart-label">
+                    <rect height="205.25" width="143.93333435058594" y="-102.625" x="-71.96666717529297" ry="0" rx="0"
+                        style="" class="basic label-container"></rect>
+                    <g transform="translate(-64.46666717529297, -95.125)" style="" class="label">
+                        <rect></rect>
+                        <foreignObject height="190.25" width="128.93333435058594">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">MIYAZATO,
+                                    Shoei <img
+                                        style="margin: auto; max-width: 140px; display: flex; flex-direction: column; width: 100%;"
+                                        src="https://raw.githubusercontent.com/jmdz/karate-notes/main/miyazato.png"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(854.1250076293945, 918.4666595458984)" id="flowchart-MIYAZATO2-6"
+                    class="node default default flowchart-label">
+                    <rect height="220" width="175.9499969482422" y="-110" x="-87.9749984741211" ry="0" rx="0" style=""
+                        class="basic label-container"></rect>
+                    <g transform="translate(-80.4749984741211, -102.5)" style="" class="label">
+                        <rect></rect>
+                        <foreignObject height="205" width="160.9499969482422">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">MIYAZATO,
+                                    Masatoshi <img
+                                        style="margin: auto; max-width: 140px; display: flex; flex-direction: column; width: 100%;"
+                                        src="https://raw.githubusercontent.com/jmdz/karate-notes/main/miyazato2.png"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(615.7166748046875, 918.4666595458984)" id="flowchart-CORAGLIO-7"
+                    class="node default default flowchart-label">
+                    <rect height="220.23333740234375" width="200.86666870117188" y="-110.11666870117188"
+                        x="-100.43333435058594" ry="0" rx="0" style="" class="basic label-container"></rect>
+                    <g transform="translate(-92.93333435058594, -102.61666870117188)" style="" class="label">
+                        <rect></rect>
+                        <foreignObject height="205.23333740234375" width="185.86666870117188">
+                            <div xmlns="http://www.w3.org/1999/xhtml"
+                                style="display: inline-block; white-space: nowrap;"><span class="nodeLabel">CORAGLIO,
+                                    Miguel Ángel <img
+                                        style="margin: auto; max-width: 140px; display: flex; flex-direction: column; width: 100%;"
+                                        src="https://raw.githubusercontent.com/jmdz/karate-notes/main/coraglio.png"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
