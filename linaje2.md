@@ -1,6 +1,6 @@
 # Linaje
 
-![diagrama de linaje](https://jmdz.github.io/karate-notes/linaje-diagrama.svg)
+<img src=https://jmdz.github.io/karate-notes/linaje-diagrama.svg />
 
 * CHIBANA, Chōshin (知花 朝信) [1885–1969]: Shōrin-ryū.
 
