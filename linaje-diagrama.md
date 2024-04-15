@@ -1,7 +1,7 @@
 ```mermaid
 graph TD;
 
-CHIBANA["`CHIBANA, Chōshin ![](https://upload.wikimedia.org/wikipedia/commons/3/3a/Chibana.jpg)`"];
+CHIBANA["CHIBANA, Chōshin <img src='chibana.png' width='100'/>"];
 MIYAHIRA["MIYAHIRA, Katsuya"];
 SHINZATO["SHINZATO, Yoshihide"];
 SHINZATO2["SHINZATO, Masahiro"];
