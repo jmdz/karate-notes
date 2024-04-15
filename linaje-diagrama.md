@@ -1,7 +1,7 @@
 ```mermaid
 graph TD;
 
-CHIBANA[CHIBANA, Chōshin <img src=https://jmdz.github.io/karate-notes/chibana.png width=100/>];
+CHIBANA["CHIBANA, Chōshin"];
 MIYAHIRA["MIYAHIRA, Katsuya"];
 SHINZATO["SHINZATO, Yoshihide"];
 SHINZATO2["SHINZATO, Masahiro"];
