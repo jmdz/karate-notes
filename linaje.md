@@ -1,6 +1,6 @@
 # Linaje
 
-![diagrama de linaje](linaje-diagrama.png)
+![diagrama de linaje](linaje-diagrama.svg)
 
 * CHIBANA, Chōshin (知花 朝信) [1885–1969]: Shōrin-ryū.
 
