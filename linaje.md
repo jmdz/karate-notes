@@ -22,8 +22,6 @@
         + [Wikipedia in English](https://en.wikipedia.org/wiki/Shōrin-ryū_Shidōkan)
         | [Wikipédia em Português](https://pt.wikipedia.org/wiki/Okinawa_Shorin-ryu_Shidokan)
 
-* IHA, Kotaro [1939–]
-
 * SHINZATO, Yoshihide (新里 良英) [1927–2008]: Shinshukan.
 
     + [Wikipedia en Español](https://es.wikipedia.org/wiki/Yoshihide_Shinzato)
