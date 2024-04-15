@@ -1,0 +1,26 @@
+```mermaid
+graph TD;
+
+CHIBANA["`CHIBANA, Chōshin ![](https://upload.wikimedia.org/wikipedia/commons/3/3a/Chibana.jpg)`"];
+MIYAHIRA["MIYAHIRA, Katsuya"];
+SHINZATO["SHINZATO, Yoshihide"];
+SHINZATO2["SHINZATO, Masahiro"];
+GONZALEZCEBALLOS["GONZALEZ CEBALLOS, Héctor"];
+MIYAZATO["MIYAZATO, Shoei"];
+MIYAZATO2["MIYAZATO, Masatoshi"]
+CORAGLIO["CORAGLIO, Miguel Ángel"]
+IHA["IHA, Kotaro"]
+
+CHIBANA --> MIYAHIRA;
+CHIBANA --> IHA;
+MIYAHIRA --> SHINZATO;
+SHINZATO --> GONZALEZCEBALLOS;
+SHINZATO --> SHINZATO2;
+MIYAHIRA --> MIYAZATO;
+MIYAZATO --> CORAGLIO
+MIYAZATO --> MIYAZATO2
+```
+
+```MD
+![diagrama de linaje](linaje-diagrama.png)
+```
